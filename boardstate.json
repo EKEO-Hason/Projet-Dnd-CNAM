@@ -1,0 +1,29 @@
+{
+    "boardName": "DND Board",
+    "boardBackground": {
+        "type": "image",
+        "url": ".\/img\/map.jpg"
+    },
+    "boardElements": [
+        {
+            "id": 0,
+            "type": "piece",
+            "name": "Pawn",
+            "position": {
+                "x": 387,
+                "y": 204
+            },
+            "image": ".\/img\/knight.webp"
+        },
+        {
+            "id": 1,
+            "type": "piece",
+            "name": "Pawn",
+            "position": {
+                "x": 524,
+                "y": 208
+            },
+            "image": ".\/img\/gargamel.webp"
+        }
+    ]
+}
