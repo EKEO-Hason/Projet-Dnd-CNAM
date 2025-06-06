@@ -8,22 +8,32 @@
         {
             "id": 0,
             "type": "piece",
-            "name": "Pawn",
+            "name": "Oui",
             "position": {
-                "x": 147,
-                "y": 262
+                "x": 112,
+                "y": 181
             },
             "image": ".\/img\/knight.webp"
         },
         {
             "id": 1,
             "type": "piece",
-            "name": "Pawn",
+            "name": "Gargamel",
             "position": {
-                "x": 307,
-                "y": 522
+                "x": 569,
+                "y": 474
             },
             "image": ".\/img\/gargamel.webp"
+        },
+        {
+            "id": 2,
+            "type": "piece",
+            "name": "Mia",
+            "position": {
+                "x": 609,
+                "y": 504
+            },
+            "image": ".\/img\/perso3.png"
         }
     ]
 }
