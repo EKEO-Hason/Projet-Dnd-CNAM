@@ -57,6 +57,9 @@ Ce projet propose une **application web interactive** de plateau de jeu, permett
 ### 🕹️ 3. **Command**
 - `Command.js` encapsule les actions utilisateur (déplacement, suppression, etc.).
 
+### 🔒 5. **Singleton**
+- `Board` (dans `Board.js`) utilise le pattern Singleton pour garantir qu’il n’existe qu’une seule instance du plateau de jeu dans toute l’application.
+- ➕ Cela centralise la gestion de l’état du plateau et évite les incohérences lors des interactions.
 ---
 
 ## 🛡️ Sécurité & Bonnes pratiques
