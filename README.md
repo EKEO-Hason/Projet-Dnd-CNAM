@@ -89,16 +89,6 @@ Toutes les sous-classes de `BoardElement` peuvent être utilisées partout où u
 
 ---
 
-### 📌 I — Interface Segregation Principle
-Les interfaces (ou classes de base) restent simples et ciblées, évitant d’imposer des méthodes inutiles aux implémentations.
-
----
-
-### 📌 D — Dependency Inversion Principle
-Le code dépend d’abstractions (interfaces, classes de base) et non de classes concrètes, facilitant l’évolution et les tests.
-
----
-
 ## 📏 Autres principes de développement appliqués
 
 ### 💡 KISS – *Keep It Simple, Stupid*
