@@ -148,9 +148,3 @@ Content-Type: application/json
 ```
 
 ---
-
-## 📝 Contribution
-
-Les contributions sont les bienvenues ! Respectez les principes SOLID et les patterns en place pour garantir la qualité et la maintenabilité du projet.
-
----
