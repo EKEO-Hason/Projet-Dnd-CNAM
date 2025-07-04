@@ -56,7 +56,6 @@ Ce projet propose une **application web interactive** de plateau de jeu, permett
 
 ### 🕹️ 3. **Command**
 - `Command.js` encapsule les actions utilisateur (déplacement, suppression, etc.).
-- ➕ Historique des actions, annulation/rétablissement faciles.
 
 ---
 
