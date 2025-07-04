@@ -37,7 +37,7 @@ Ce projet propose une **application web interactive** de plateau de jeu, permett
 | `BoardElementFactory.js` | Fabrique d’éléments du plateau                      |
 | `BoardGraphic.js`        | Gestion de l’affichage graphique                    |
 | `Observable.js`          | Implémentation du pattern Observer                  |
-| `Command.js`             | Gestion des commandes (Undo/Redo, actions)          |
+| `Command.js`             | Gestion des commandes (actions)                     |
 | `boardstate.json`        | Sauvegarde de l’état du plateau                     |
 | `styles.css`             | Styles de l’interface                               |
 | `api/board.php`          | Fichier PHP pour la gestion serveur du plateau      |
@@ -55,12 +55,8 @@ Ce projet propose une **application web interactive** de plateau de jeu, permett
 - ➕ Synchronisation efficace entre la logique et l’affichage.
 
 ### 🕹️ 3. **Command**
-- `Command.js` encapsule les actions utilisateur (déplacement, suppression, etc.) et permet l’implémentation d’Undo/Redo.
+- `Command.js` encapsule les actions utilisateur (déplacement, suppression, etc.).
 - ➕ Historique des actions, annulation/rétablissement faciles.
-
-### 🧰 4. **Service**
-- La logique métier (gestion du plateau, règles de déplacement) est centralisée dans des services dédiés.
-- ➕ Séparation claire des responsabilités.
 
 ---
 
